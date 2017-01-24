@@ -1,0 +1,119 @@
+                      Engineering Research Group
+                     Staff Member Self-Evaluation
+
+
+Name:  LOTTOR, Mark K.             For the period: 4/29/85 to 10/25/85
+Title: Jr. Systems Programmer      Organization:   677
+
+
+ The following provides the framework for evaluating individual
+ performance and organizational contribution.
+
+_______________________________________________________________________________
+
+				SECTION I
+
+* Activities (Professional, Promotion, Client, Project, Institute-Related,
+  etc.):  Briefly describe major efforts to which you contributed during
+  the review period; summarize your contributions.
+
+I'll divide this section into 3 parts.  One on my NIC activities,
+one on my CSL activities (for whom I work about 12 hours a week),
+and one on my own institute related activities.
+
+For the NIC:
+  - I suggested buying an accurate clock that the DEC-20 can read the
+    date and time from.  The kit was built and interfaced to the system
+    and is now being used.  It will soon allow any system on the internet
+    to read the time.
+  - I have installed many random EXEC and MONITOR hacks.  Among them
+    was fixing control-L and adding a way for programs to tell the EXEC
+    what to do with them once they have finished executing.
+  - I wrote the user side of the remote database REGISTER program.
+  - I am currently finishing a Domain Survey Program.  This has been a
+    major effort.  The program will query all network domain servers
+    and generate a HOSTS.TXT file from the information gathered.
+  - I am also just finishing adding an alias feature to MM.
+
+For CSL:
+  - I have been helping CSL bring up TOPS-20 on their Foonly's for
+    the last year or so.  This has been a long and large effort.
+    I have brought up countless numbers of system and utility
+    programs and made lots of additions and modifications to them.
+    I was also involved in debugging TOPS-20 on the Foonly,
+    the network code especially.
+
+Institute/network related::
+  - I was the first person at SRI to suggest that we start doing
+    something about registering the SRI.ORG domain.  Without it we
+    will no longer be up-to-date with the current internet protocols.
+    I am now involved in getting this done.  It currently includes
+    getting two domain servers up and running and being the maintainer
+    of the SRI domain host files.
+  - I have developed a network talk protocol.  It is used for real-time
+    interactive communication between users on different hosts.  I have
+    written a full TOPS-20 implementation and am working with someone
+    who is writing one for UNIX.  I also wrote an RFC to be published soon.
+
+
+
+
+_______________________________________________________________________________
+
+				SECTION II
+
+* Performance Objectives Achievement:  How well did you meet each
+  objective in your performance plan?  If there were shortfalls,
+  how would you avoid them in the future?  Include progress in meeting
+  own professional development plan.
+
+My current objective is to be promoted to Systems Programmer from
+Jr Systems Programmer.  I would like for this to happen sometime 
+around the middle of 1986.  I feel the current work I am doing
+and my experience show that I am ready for this change.
+
+_______________________________________________________________________________
+
+				SECTION III
+
+* Professional Development:  What are your strengths and areas which can be
+  improved?  Where will you concentrate your efforts?  In what areas do you
+  need development assistance?
+  
+   In the TOPS-20 area of things, I should probably learn more details
+of TOPS-20 including internal MONITOR structures.  Since TOPS-20
+is 'dead' and 'going out' it is not clear that I should spend any
+more time learning in this area since I already know a great deal
+about it.
+   Instead I should probably spend more time learning the UNIX
+operating system and the C language.  These will probably become
+the dominant things used at the NIC in the near future as TOPS-20
+fades away. (although I hope it doesn't)
+   I am leaning a lot about the network domain system.  This is a
+complicated area and I should be an expert in it fairly soon.  I try
+to keep up with all the current protocols and this is one area
+in which I like to concentrate my efforts.
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+_______________________________________________________________________________
+Staff Member Signature       Date     | Manager Signature       Date
+                                      |
+                                      |
+                                      |
+_______________________________________________________________________________
+Reviewed by                  Date     | Reviewed by             Date
+                                      | 
+                                      | 
+_______________________________________________________________________________

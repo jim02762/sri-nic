@@ -1,0 +1,93 @@
+
+	            ENGINEERING RESEARCH GROUP
+	
+                   STAFF MEMBER SELF-EVALUATION
+
+
+Name            LOTTOR, Mark K.	                 For the period   1988
+Title           Assistant Manager, NIC Computer Facility
+Organization    Network Information Systems Center
+
+[The following provides the framework for evaluating individual
+performance and organizational contribution.]
+
+
+				SECTION I
+
+
+o  ACTIVITIES, (PROFESSIONAL, PROMOTION, CLIENT, PROJECTS,
+   INSTITUTE-RELATED, ETC.):  Briefly described major efforts
+   to which you contributed during the review period;  summarize
+   your contributions.
+
+
+Worked with Fred and Vivian to come up with the specifications for
+the NAURS RFP.  Helped evalutate and select a winner from the proposals.
+
+Designed, installed, and did initial setup of the NIC/NAURS local area
+networks, file servers and workstations, including hardware and
+software selection and configuration.
+
+Regularly attended Internet Engineering Task Force meetings and
+partially lead the Domain Naming Working Group.
+
+Answered many technical questions for NIC staff and oustide
+callers, and gave presentations to reference staff on domain
+naming and network protocol issues.
+
+Completed conversion of all NIC software to use the domain system.
+
+Updated and maintained systems software on the DEC-20.  This included
+making many programs more reliable and efficient, such as the mailers
+and dumper; adding software to support the new ethernet interface;
+updating software to support Sun workstations; and fixing many bugs
+in the networking code that used to crash the system.
+
+
+				SECTION II
+
+o  PERFORMANCE OBJECTIVES ACHIEVEMENT:  How well did you meet
+   each objective in your performance plan.  If there were 
+   shortfalls, how would you avoid them in the future?  Include
+   progress in meeting own professional development plan.
+
+
+I extended the areas in which I work to include more than just
+programming.  This year I became involved in RFP writing and
+evaluation, more internal reference staff helping, facilities
+planning, hardware and software selection, and interfacing with
+vendors to get problems fixed and equipment ordered.
+
+I've learned a lot more of Unix in the last year, but there
+is still much more to learn.
+
+
+				SECTION III
+
+
+o  PROFESSIONAL DEVELOPMENT:  What are your strengths and areas
+   which can be improved?  Where will you concentrate your efforts?
+   In what areas and how do you need development assistance?
+
+I need to have a better understanding of the internal and system
+interface facilities of Unix, and I'll be attending a course in a few
+months that should help me in that area.
+
+I'll be concentrating more time this year to learning more of Unix,
+especially in the systems programming area.
+
+I'll continue to work with Vivian as Assistant Manager of the computer
+facility, helping with specification, selection and acquistion of new
+hardware and software, working with vendors to maintain facilities
+and order new products, and helping with technical aspects of other
+projects like the SRI IMP reorganization and the new BARRNET connection.
+	
+ _____________________________________________________________________
+| Staff Member Signature      Date|Member Signature               Date |
+|                                 |                                    |
+|                                 |                                    |
+|--------------------------------------------------------------------- |
+| Reviewed by                 Date|Reviewed by                    Date |
+|				  |                                    |
+|				  |                                    |
+ ----------------------------------------------------------------------

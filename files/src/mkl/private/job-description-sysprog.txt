@@ -1,0 +1,119 @@
+The Graduate School of Business at Stanford University is seeking a
+systems programmer specializing in EITHER the VAX/VMS, OR the 
+TOPS-20/Unix/TCP-IP computing environments.
+
+JOB DESCRIPTION
+---------------
+
+The Programmer/Systems reports to the Computer Operations Manager at the
+Graduate School of Business Computer Facility.  The primary emphasis of
+this position is on the development and maintenance of software, but user
+support and consulting, documentation writing, and the implementation of
+Computer Facility policy will also be important.
+
+Specific responsibilities of the position will include:
+
+--Maintenance and support of operating system software on the Facility's
+timesharing computer systems, including configuration and installation of
+new releases, bug-fixes, and performance enhancements.
+
+--Maintenance and support of major commercial software packages acquired
+from DEC and third-party vendors, including configuration and installation
+of new products and new releases and assisting the User Services group in
+providing user documentation, training, and support.  The Programmer/Systems 
+will be expected to acquire a working knowledge of all major GSB-supported 
+supported software and langugage compilers.
+
+--Development, maintenance, and support of locally-written software which
+meets the specific computing needs of the GSB.  Where applicable, co-ordinate
+such efforts with other computer sites at Stanford; keep GSB software 
+up-to-date with all Stanford versions.
+
+--Development, configuration, maintenance and documentation of systems
+operating procedures, including system batch jobs; user authorization
+procedures; resource allocation, accounting and billing; system
+performance measurement and tuning.
+
+
+The GSB Computer Facility currently operates two DECsystem-2065 computers,
+a Vax 8550 running VMS, and a MicroVax II running Unix, as well as a wide
+variety of micro-computers (MS-DOS and Macintosh).  Substantial changes in
+the computing environment are expected within the next several years,
+including the migration of existing DEC-20 software and applications to
+the VMS environment.
+
+
+QUALIFICATIONS:
+---------------
+
+NOTE: This person will be expected to specialize in system programming for
+EITHER the TOPS-20/UNIX/TCP-IP OR the VAX/VMS computing environment.
+Support for the other major computing environment will be the
+responsibility of a companion position, to be posted at a later date.
+Applicants with qualifications in either area are encouraged to apply;
+individuals with qualifications in both operating environments would be
+strong candidates.
+
+For a TOPS-20/UNIX/TCP-IP specialist: familiarity with the TOPS-20
+operating environment and system software internals, including experience
+with MACRO-20 assembly language, LINK, compiler object run-time systems,
+and run-time symbolic debuggers.  Familiarity with program development in
+the Unix environment, Unix system configuration and operations, and TCP/IP
+networking software installation, configuration and operation.
+Knowledge of VAX/VMS helpful but not required.
+
+For a VAX/VMS specialist: familiarity with the VMS operating environment
+and software internals, including experience with MACRO-32 assembly
+language, system services, RMS, DCL programming, software development
+tools such as CMS/MMS and LSE, compiler object run-time systems, and
+symbolic debuggers.  Experience with DECnet or TCP/IP networking or with
+Vax clusters.  Knowledge of TOPS-20 or Unix helpful but not required.
+
+APPLICABLE TO ALL CANDIDATES:
+
+Programming experience in several high-level computing languages (Fortran,
+Pascal, or C).  Experience developing and maintaining major system and
+application software.  
+
+Knowledge of database systems and/or statistical applications would be
+desirable, as would experience with microcomputer programming and
+micro-to-mainframe communications.
+
+Applicants should have the ability and willingness to work with computer
+users at all levels of skill and in a variety of academic and
+administrative areas within the School, and to learn new computing
+languages and techniques as the GSB computing environment changes over
+time.  Applicants should work well with minimal supervision.  Non-smoking
+area.
+
+
+SALARY: $2378 - $4412/month, depending on level of appointment and years of
+applicable experience.
+
+
+TO APPLY:
+---------
+
+Send a resume including the names of three persons willing to act as 
+references, to:
+
+	Mr. J. Jeff Badger (#45368-JEF)
+	Personnel Services, Old Pavillion
+	Stanford University
+	Stanford, CA 94305-6110
+
+The deadline for applications is March 14, 1988.
+
+Stanford University has a strong institutional commitment to the principle of
+diversity.  In that spirit, we welcome applications from all people, including
+women, members of ethnic minorities, and disabled individuals.
+
+
+
+[Specific questions about the position may be directed to the undersigned;
+however, applications should be sent directly to the address above.]
+
+						Eric M. Berg
+						Graduate School of Business
+						Stanford University
+						A.ERIC@GSB-How.Stanford.EDU

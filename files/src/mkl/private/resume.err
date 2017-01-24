@@ -1,0 +1,4 @@
+@Comment{ERRLOG of RESUME.MSS.2 by Scribe 5(1500) on 22 January 1987 at 13:57}
+
+Error found while processing database entry for document type at SS:<SCRIBE-5>SERIF.LIB.4 line 7:
+No PostScript FontFamily named Helvetica10; the default will be used.

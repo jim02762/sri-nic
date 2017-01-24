@@ -1,0 +1,180 @@
+TITLE
+  Networking with TCP/IP and Unix
+    for users and network administrators
+
+  Unix Users Guide to TCP/IP Networking
+  Administrators Guide to TCP/IP Networking (for Unix systems)
+  TCP/IP Network Administration
+  TCP/IP Administrators Guide
+  The Guide to TCP/IP net admin
+  TCP/IP system administration
+  TCP/IP networking managers guide
+  Network Administration (for Unix and TCP/IP)
+  Network Administration using TCP/IP
+=================================================
+The basic idea:
+  The book contains short protocol descriptions before telling
+how to use applications that make use of them.  The application
+programs are described, and are then followed by useful examples.
+Bugs, security problems, performance tips and hints are also included.
+
+
+In memory of TOPS-20 and its influence on the TCP/IP protocols,
+
+Foreword
+
+Introduction
+
+Information
+  History, arpanet/milnet/internet
+  The NIC
+    RFCs, applications, network numbers, domain registration
+
+Internetworking Model
+The Media (Ethernet and Token)
+  use, cabling, restrictions
+
+The Protocols
+  Network Layer
+    IP, ICMP, ARP
+    subnetting, proxy arp
+  Transport
+    TCP, UDP
+  remote login (TELNET)
+  File transfer (FTP)
+
+Naming and Addressing
+  tables
+  YP
+  DNS
+    naming
+    resolvers
+    servers
+      registeration
+      zone files
+
+Mail
+  SMTP, RFC822
+  mail and domains
+  Sendmail configuration
+
+Remote procedure call
+  XDR, RPC
+
+NFS
+  Mountd
+  NFS
+
+Berkeley networking
+  trusted hosts groups
+  rsh, rcp, rlogin, rdist(?)
+  rmt, rdump, rrestore
+  ruptime, rwhod
+  trailers
+
+Booting
+  RARP
+  BOOTP
+  TFTP
+
+Configuration
+  ifconfig, arp, netstat
+
+Routing
+  route
+  routed (RIP)
+  egp
+
+Miscellaneous
+  time/rdate
+  finger
+  whois
+  quote
+
+Gateways and TIPs
+
+Security issues
+  rlogin, r*, nfs, gateways, tips, log files
+
+Performance issues
+  nfs, tcp, lossy links, slip lines, gateways/bridges
+
+SLIP
+  PPP
+
+X summary
+  protocol
+  application
+
+Net management
+  SNMP
+
+Programming Interfaces
+  Sockets
+  Streams
+
+Host Requirements RFC?
+
+References
+
+Index
+========================================
+Possible reviewers:
+  vivian, jose, frank
+  geoff goodfellow
+  Jon Postel
+  Bob Gilligan
+  Eric Brunner
+  Paul Hyder?
+  Chuck Hedrick
+
+Intro
+  Doug Comer
+  Dan Lynch
+  Jon Postel
+  Vint Cerf
+
+Additional writers
+  Bob Gilligan
+    RARP, BOOTP
+  Eric Fair
+    Sendmail configuration
+  Greg Satz
+    Gateway stuff?
+  Vince Fuller
+    routing
+========================================
+Inside cover Author Blurb
+
+Mark K. Lottor (MKL@NIC.DDN.MIL) has been an active member of the
+TCP/IP community since 1982, just after TCP/IP was introduced.  He is
+currently systems programmer and assistant manager of the computer
+facility for the DDN Network Information Center at SRI International
+in Menlo Park, California.  Mark is an active member of the Internet
+Engineering Task Force and has authored three RFCs on TCP/IP
+networking protocols and usage.  He has implemented numerous protocols
+including an NFS server for TOPS-20.  Lottor also teaches TCP/IP
+networking seminars for Advanced Computing Environments of Mountain
+View, California.
+========================================
+Back Cover
+
+TITLE
+
+This book is for the network or system administrator of hosts using
+the TCP/IP protocol suite.  It is also for the users of TCP/IP
+networking software.  It is written specifically for Unix based
+systems but should also prove helpful for other operating system based
+implementations of the TCP/IP protocol suite.
+
+In this book you will learn about:
+  - The Internetworking Model
+  - Common Network Media
+  - TCP/IP protocol theory and model
+  - Configuration of TCP/IP hosts
+  - Yellow Pages and the Domain Name System
+  - Internet Mail and protocols
+  - The Network File System
+  - File transfer and remote login
+  - Berkeley extensions
+  - Networking security issues

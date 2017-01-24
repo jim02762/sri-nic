@@ -1,0 +1,46 @@
+This is a big flame.  Its about the network response on the NIC
+and the TCPHST program (hosts.txt server).  Some weeks ago a
+new TCPHST program written in C was installed, replacing the
+old crufty midas version.  Network response on the NIC lately
+has been incredibly slow and we've noticed that its not always
+the entire arpanet,  but just us.  Well, so, to get into details,
+the new TCPHST program opens TCP connections in interactive mode,
+which means every SOUT tries to push immediately.  It really
+should be opened in the high throughput mode, which buffers data 
+until there is a bunch to send.  Interactive mode is for interactive
+style networking, like telnet.  High throughput mode is for bulk
+transfers like FTP.  The reasoning behind this interactive mode
+is that then the C program can just do network stuff to its
+primary I/O and not have to even know it's talking to a network.
+Could be a file or even a terminal.  AHA!  Its the UNIX philosophy
+creeping into our TOPS-20 system.  It should be stopped immediately!
+Networks are NOT files and terminals are NOT files.  UNIX thinks
+you can generalize everything into a file conecpt and that's complete
+bullshit.  UNIX does push all its TCP data as soon as it can and that's
+why UNIX is screwed and why we are running TOPS-20 instead.  Please write
+TOPS-20 programs with the TOPS-20 philosophy.  If you are writing a
+program that uses the network then you will probably need to do
+special things to make it work properly.  Once again, a network
+is not a file.  It doesn't come close.  They are completely
+different things.  They don't work the same way and you don't
+use them the same way.  If you want to then go use Blackjack.
+
+From the TCP documentation:
+.TCMWI (1)      Interactive  mode.   Send  all  bytes  as  soon  as
+                possible  (ie.  Send  data after each SOUT% or BOUT).
+                This mode attempts to  give  the  most  "interactive"
+                response possible by sending many small messages.
+
+.TCMWH (2)      High throughput mode.  Hold data in local buffers until
+                accumulated   bytes   are  sufficient  for  efficient
+                transmission, or until transmission is requested with
+                the TCOPR% or SOUTR% JSYS. The mode attempts to  give
+                high  throughput  at  low  overhead  by sending large
+                messages.
+
+The TCPHST program should NOT use interactive mode.  READ IT.
+It says it sends MANY SMALL MESSAGES.  The high throughput mode
+attempts to give HIGH THOUGHPUT at LOW OVERHEAD.  Thats what
+you want for a host table server.  I don't wanna see anymore
+of this bullshit that says you access everything like its a file
+and you don't give a shit what the system has do to with it.

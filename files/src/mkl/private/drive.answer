@@ -1,0 +1,32 @@
+A friend of mine asked me to forward this answer to Unix-Wizards...
+
+Date: 10 May 1986 23:01:69-CDT
+From: Suzie%SWAPPED@FULL.DEC
+Subject: Re: help me with my device driver
+
+> From: dragonpup <dwaagon%sdcc6.uucp@BRL.ARPA>
+> Subject: help me with my device driver
+> Date: 6 May 86 05:48:16 GMT
+> Keywords: please, please, please
+> To:       unix-wizards@brl-sem.arpa
+
+> i have this problem see,
+> i'm futility trying to write this driver for
+> /dev/clit for our System V machine (i realize that this comes
+> with a BSD version)
+> every time i try to load it up, the buffers seem to overflow
+> and alot of our circuits seem to be erroding from this.
+> is this a problem with "bucket" size ?
+> i hope someone out there can straigthen this out.
+
+Writing your own driver for this device is not an easy task.  The VMS
+code for it is in fact very hairy.  I suggest you find the
+/dev/vibrator tool as this can be a useful aid when noone is around to
+help and is much better for testing purposes than /dev/nul.  Also you
+should avoid any pubic domain versions of the driver, as these may
+contain the Acquired Incorrect Device Syndrome which will destroy any
+unprotected system.  To avoid the buffer overflow problem I suggest
+you skip using buffers and access the device as quickly as possible.
+
+Let me know if you'd like some help testing the code.
+Suzie.

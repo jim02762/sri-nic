@@ -1,0 +1,99 @@
+                      Engineering Research Group
+                     Staff Member Self-Evaluation
+
+
+Name:  LOTTOR, Mark K.             For the period: 11/1/85 to 10/1/86
+Title: Asst. Systems Programmer    Organization:   685
+
+
+ The following provides the framework for evaluating individual
+ performance and organizational contribution.
+
+_______________________________________________________________________________
+
+				SECTION I
+
+* Activities (Professional, Promotion, Client, Project, Institute-Related,
+  etc.):  Briefly describe major efforts to which you contributed during
+  the review period; summarize your contributions.
+
+This section is in three parts.  One on my NIC activities,
+one on my CSL activities (for whom I work about 8 hours a week),
+and one on other related activities.
+
+For the NIC:
+ added aliasing to MM
+ finished domain name survey program
+ converted VH data program
+ played with postscript printers and wrote temporary printing programs
+ wrote mail services program
+ attended unix seminar at decus
+ brought up unix on vax, did 4.3 upgrade, other random unix things
+ attented ietf meetings in july and october on domains
+ wrote programs to compute a 'network load average'
+ added a seperate mailer and queue for mailing lists
+ attended TCP/IP vendors workshop
+ installed new FTP server
+
+For CSL:
+ maintained systems software and files
+ converted all machines to domain names
+ rewrote imagen network spooling software
+
+Other related activities:
+ Wrote programs to send computer mail to my pager automatically
+   (the code for the mail service program came from this).
+ Maintained the SRI domain/zone database and helped
+   ISTC and others at SRI with domain conversions.
+
+
+
+_______________________________________________________________________________
+
+				SECTION II
+
+* Performance Objectives Achievement:  How well did you meet each
+  objective in your performance plan?  If there were shortfalls,
+  how would you avoid them in the future?  Include progress in meeting
+  own professional development plan.
+
+I learned a bunch of UNIX, but haven't done C yet.
+Learned extended addressing.  Learned Postscript.
+Became a domain expert.
+
+_______________________________________________________________________________
+
+				SECTION III
+
+* Professional Development:  What are your strengths and areas which can be
+  improved?  Where will you concentrate your efforts?  In what areas do you
+  need development assistance?
+  
+Continued interest in domains and networking protocols.
+Should try to learn C this year.
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+_______________________________________________________________________________
+Staff Member Signature       Date     | Manager Signature       Date
+                                      |
+                                      |
+                                      |
+_______________________________________________________________________________
+Reviewed by                  Date     | Reviewed by             Date
+                                      | 
+                                      | 
+_______________________________________________________________________________

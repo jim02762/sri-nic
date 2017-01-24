@@ -1,0 +1,74 @@
+I felt like a need to say this for some reason.  I'm not sure if it's
+a generally recognized thing here.  It's about software modifications
+and the computing environment we'll be moving into soon.  Some things
+on the tcp-ip list and discussions about hiring another systems
+programmer got me thinking about it.
+
+The point of this is that we really must have source code to as
+much stuff as possible when moving to Unix, and that we really
+do need programming done.  We can't just use what we get from
+the vendors.
+
+Consider what would happen if we didn't have Monitor source code on
+the NIC.  We'd probably be crashing every hour.  Getting DEC to fix
+anything would take months if ever.  Also think about all the
+software on the NIC.  I can hardly think of ANY program we have
+that doesn't have some NIC bug fix or change in it, even if it's
+only a line or two.  In the counterexample that comes to mind,
+SCRIBE, we probably would have NIC stuff in it if we could get the
+source code.  I think the same goes for almost any program we have.
+I mean, we even went so far as rewriting our own compiler.  
+
+You might think that this is only because we are using an old unsupported
+operating system, but that really has nothing to do with it.
+Thinking that moving to Unix will eliminate these NIC changes is
+completely false.  People tend to think that since Unix is the
+new thing and since everyone's using it, that it must work real
+well and be properly supported.  That's not true at all, and just
+playing with a SUN for a few hours will convince you of that.
+Most vendors just give you whatever comes with the standard Berkeley
+Unix release with a few mods for their machines.  SUN uses the
+standard print spooling and mail system software that comes with
+Unix, and it's just plain awful.  I mean, if a huge vendor like
+SUN still distributes crufty old software, I don't see how we would
+ever get along without a bunch of programming.
+
+So, as far as Unix is concerned, we are going to have a lot of work
+to do.  From what I've seen, programs in Unix are less developed
+and less sophisticated than what we've been using for years.  It's really
+a step backwards as far as software goes.  (Well, in general at least.
+There are SOME nice things in Unix).  And I'm not trying to knock Unix
+(that much), just trying to point out that we are going to need at least
+as much and probably more software development to use it than we have
+on the 20.
+
+It should be noted that there will be lots of programming to do
+as far as systems stuff goes, and that it will probably take some
+time before it gets to the point of being a nice comfortable
+environment.  I think it'll take at least of year of programming
+before we get to the point where most of the things are working
+the way we want them to be.
+
+I'd also like to dispell some myths people might have about switching
+to this 'new wonderful networked workstation environment'.  Basically,
+it really isn't much of an improvement over what we've got now.  You
+do gain a few things, like guaranteed CPU time on your own machine,
+and a bit mapped display, (and Unix, if you think its an advantage).
+BUT, you don't gain reliability or independence from centralized
+services.  If a file server goes down, everyone loses.  If the network
+jams or breaks, everyone loses.  If the network or file server becomes
+overloaded, EVERYTHING slows down.  If a gateway dies, NOONE can talk
+to the net.  It is still a very tightly coupled system, and any one
+breakdown can affect everything.  With lots of extra equipment (and
+money) it could be designed to be more reliable and independent, but
+that's not within our budget.  (And in fact, a properly designed
+workstation environment would cost much more than an equivalent
+mainframe environment).  The point is that the workstation environment
+is very much like the mainframe/terminal environment.  Instead of
+everyone relying on one machine, everyone relies on a whole bunch of
+distributed machines.  Its a much more complex system and there are
+more things that can go wrong.  I don't think you should expect that
+it will be much of an advance over what you are using now, but we'll
+try to make the best of it.
+
+That's it.

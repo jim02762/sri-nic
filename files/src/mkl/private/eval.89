@@ -1,0 +1,104 @@
+			PERFORMANCE REVIEW AND PLAN
+                     For the period:  Oct 88 to Oct 89
+
+Name            LOTTOR, Mark K.    
+Title           Assistant Manager, NIC Computer Facility
+Organization    Network Information Systems Center (685)
+
+[The following provides the framework for evaluating individual
+performance and organization contribution.]
+
+
+				SECTION I
+
+o  ACTIVITIES, (PROFESSIONAL, PROMOTION, CLIENT, PROJECTS,
+   INSTITUTE-RELATED, ETC.):  Briefly described major efforts to which
+   you contributed during the review period; summarize your contributions.
+
+Wrote a Unix based tape backup and user archiving system to
+support the growing number of NISC Unix users.
+
+Wrote spooler software to enable remoting printing from the 2065 to
+printers on the Unix systems.
+
+Wrote RFC 1078, A TCP Port Service Multiplexor, and implemented it
+for Tops-20 and Unix systems.
+
+Merged Tops-20 version 7.0 with our monitor and brought up
+the latest software release.
+
+Did routine systems programming maintenance of the DEC-2065
+including emergency bug fixes and efficiency improvements to
+system and user software.  
+
+Continued maintenance, installation and expansion of NISC local area
+networking facilities.
+
+Worked with Fred Ostapik, Sun Microsystems, and BBN to resolve
+problems and make operational two data gathering machines on
+direct MILNET connections for the NAURS project.
+
+Helped with technical specifications for proposals including the
+Secure NIC, Security Coordination Center, and Internet NIC.
+
+Wrote a proposal to DCA to replace the 2065's IMP connections with a
+gateway in order to transition to new hardware for the NIC project.
+
+Regulary attended Internet Engineering Task Force meetings and gave
+presentations on domain name systems statistics I collect.
+
+Answered many technical questions for NISC staff and oustide
+callers in all areas of networking.
+
+Received a Recognition Award for helping restore the system
+to operational status after a disk crash on a holiday.
+
+Worked out initial connection problems with BARRNET to get SRI connected.
+
+Installed software and database to participate in NYSERNET
+White Pages Pilot Project.
+
+
+				SECTION II
+
+
+o  PERFORMANCE OBJECTIVES ACHIEVEMENT: How well did you meet each
+   objective in your performance plan?  If there were shortfalls, how would
+   you avoid them in the future?  Include progress in meeting own
+   professional development plan.
+
+I attended a Unix systems programming seminar about a year ago that
+gave me the knowledge I needed to work on bigger Unix projects.
+I've worked on some major Unix/C software since then and now feel
+pretty confortable programming in that environment.  This will be
+important when we transition from a Tops-20 to a Unix system for
+our major work.
+
+
+				SECTION III
+
+
+o  PROFESSIONAL DEVELOPMENT: What are your strengths and areas which
+   can be improved?  Where will you concentrate your efforts?  In what
+   areas and how do you need development assistance?
+
+As Assistant Manager I need to learn more about SRI and government
+financing and project administration issues.
+
+I'll continue to work with Vivian as Assistant Manager of the computer
+facility, helping with specification, selection and acquistion of new
+hardware and software, working with vendors to maintain facilities
+and order new products, and helping with technical aspects of other
+projects.
+
+I have continued interest in networking protocols concentrating
+on new applications and uses for computer networking.
+ ________________________________________________________________________
+| Staff Member Signature	  Date 	| Member Signature	    Date |
+|				     	|				 |
+|					|				 |
+| -----------------------------------------------------------------------|
+| Reviewed by			  Date  | Reviewed by		    Date |
+|					|				 |
+|					|				 |
+ ------------------------------------------------------------------------
